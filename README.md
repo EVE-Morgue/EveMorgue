@@ -14,17 +14,19 @@ It currently operates as a web product and is designed to support a public API i
 ## Project Showcase
 
 ### Core Capabilities
+
 - Loss analysis by `shipId` with optional `itemId` fit filtering
 - Ship search by keyword using cached ship metadata
 - Ship detail lookup with ESI-backed data
 
 ### Architecture Direction
-The solution follows Clean Architecture naming and boundaries:
+
+The solution follows Clean Architecture naming and boundaries, mapped to the current repo layout:
 
 ```plaintext
-.API     ASP.NET Core Web API entry point
-.Core    Domain and application logic
-.Client  Next.js website
+apps/server/EVEMorgue.API   ASP.NET Core Web API entry point
+apps/server/EVEMorgue.Core  Domain and application logic
+apps/client                 Next.js website
 ```
 
 ## Documentation

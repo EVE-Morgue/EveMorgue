@@ -5,27 +5,33 @@
 `EveMorgue` follows a Clean Architecture structure to preserve separation of concerns and support long-term evolution.
 
 ```plaintext
-.API     ASP.NET Core Web API entry point (HTTP concerns)
-.Core    Application and domain logic
-.Client  Next.js web experience
+apps/server/EVEMorgue.API   ASP.NET Core Web API entry point (HTTP concerns)
+apps/server/EVEMorgue.Core  Application and domain logic
+apps/client                 Next.js web experience
 ```
 
 ## Layer Responsibilities
 
 ### `.API`
+
 - Exposes HTTP endpoints
 - Handles request/response orchestration
 - Delegates business workflows to `.Core`
+- Lives at `apps/server/EVEMorgue.API`
 
 ### `.Core`
+
 - Contains domain entities and use cases
 - Encapsulates business rules
 - Defines abstractions for infrastructure access
+- Lives at `apps/server/EVEMorgue.Core`
 
 ### `.Client`
+
 - Provides the user-facing website
 - Implements search, filtering, and detail views
 - Calls backend endpoints from `.API`
+- Lives at `apps/client`
 
 ## Key Design Decisions
 

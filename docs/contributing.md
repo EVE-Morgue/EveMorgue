@@ -11,7 +11,7 @@ Thank you for your interest in contributing to `EveMorgue`.
 
 ## Contribution Guidelines
 
-- Keep architecture boundaries clear (`.API`, `.Core`, `.Client`)
+- Keep architecture boundaries clear (`.API`, `.Core`, `.Client`) and place them under `apps/server/` or `apps/client/` as appropriate
 - Prefer small, focused pull requests
 - Update relevant docs in `docs/` for behavioral or API changes
 - Preserve performance characteristics when touching external API integration
@@ -26,6 +26,7 @@ Thank you for your interest in contributing to `EveMorgue`.
 ## Reporting Issues
 
 When opening an issue, include:
+
 - Expected behavior
 - Actual behavior
 - Reproduction steps

@@ -34,6 +34,9 @@ body:
         - .API
         - .Core
         - .Client
+        - apps/server/EVEMorgue.API
+        - apps/server/EVEMorgue.Core
+        - apps/client
         - docs
         - cross-cutting
     validations:
