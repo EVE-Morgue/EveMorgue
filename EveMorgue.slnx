@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="EveMorgue.API/EveMorgue.API.csproj" />
+  <Project Path="EveMorgue.Core/EveMorgue.Core.csproj" />
+</Solution>
