@@ -1,0 +1,5 @@
+* @EVE-Morgue/maintainers
+/.API/    @EVE-Morgue/backend-team
+/.Core/   @EVE-Morgue/backend-team
+/.Client/ @EVE-Morgue/frontend-team
+/docs/    @EVE-Morgue/maintainers
