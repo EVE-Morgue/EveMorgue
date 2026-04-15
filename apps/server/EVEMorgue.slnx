@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="EVEMorgue.API/EVEMorgue.API.csproj" Id="6816076c-02e6-429a-9286-35f9337c169f" />
   <Project Path="EVEMorgue.Core/EVEMorgue.Core.csproj" />
+  <Project Path="EVEMorgue.Infrastructure/EVEMorgue.Infrastructure.csproj" />
 </Solution>

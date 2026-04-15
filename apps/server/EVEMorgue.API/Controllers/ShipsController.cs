@@ -16,7 +16,7 @@ namespace EVEMorgue.API.Controllers
         }
 
         [HttpGet]
-        [Route("details/{shipId:int}")]
+        [Route("{shipId:int}/details")]
         public IActionResult GetDetails(int shipId)
         {
             var details = shipService.GetDetails(shipId);

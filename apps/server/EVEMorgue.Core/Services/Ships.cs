@@ -36,7 +36,7 @@ namespace EVEMorgue.Core.Services
 
         public Dictionary<int, string> Search(string searchTerm)
         {
-            
+
             return _ships.Where(s => s.Value.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
                           .ToDictionary(s => s.Key, s => s.Value);
         }
