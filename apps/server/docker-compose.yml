@@ -1,0 +1,6 @@
+services:
+  evemorgue.api:
+    image: ${DOCKER_REGISTRY-}evemorgueapi
+    build:
+      context: .
+      dockerfile: EVEMorgue.API/Dockerfile
