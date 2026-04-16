@@ -1,12 +1,11 @@
 # EveMorgue
 
-EveMorgue is a ship-loss intelligence website for EVE Online, built to help players quickly inspect fittings, identify item usage, and understand loss patterns.
+EveMorgue is a fitting intelligence website for EVE Online, built to help players quickly inspect kills by item usage, and understand loss patterns.
 
-It currently operates as a web product and is designed to support a public API in future releases.
 
 ## Why EveMorgue
 
-- Fast ship-loss analysis powered by zKillboard and ESI data
+- Fast ship-fitting analysis and creation powered by zKillboard and ESI data
 - Focused workflow for both EVE players and developers
 - Clean Architecture foundation for long-term maintainability
 - Ready for extension into public API scenarios
